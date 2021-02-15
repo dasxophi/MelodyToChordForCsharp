@@ -23,7 +23,7 @@ namespace MelodyToChordForCsharp {
 		}
 	}
 
-
+	
 
 	Dictionary<String^, int>^ Convert(map<string, int>* myMap) {
 		//std::cout << "convert " << std::endl;
@@ -40,6 +40,10 @@ namespace MelodyToChordForCsharp {
 		}
 
 		return h_result;
+	}
+
+	void Logic::exitFlag() {
+		m_pMelodyToChord->exitFlag();
 	}
 
 	int Logic::Setting() {

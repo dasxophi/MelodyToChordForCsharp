@@ -33,5 +33,6 @@ namespace MelodyToChordForCsharp {
 		//int MelodyPrintOne(std::multimap<int, int>& melodyAndTime);
 		Dictionary<String^, int>^ main();
 		Dictionary<String^, int>^ ChordRecommendClock(multimap<int, int>& melodyAndTime, ChordRecommend& chords, bool stop);
+		void exitFlag();
 	};
 }
